@@ -22,32 +22,24 @@ Overview of distillation flow across different tasks and datasets. 1) Supervised
 
 Overview of distillation flow across different tasks and datasets. 1) Supervised task is always conducted, 2) Feature distillation is applied if a well-trained teacher model is available, and 3) Vanilla ${L}_{KD}$ is employed if teacher and student models conduct the same task.
 
-## Train the teacher network (optional)
+## Train the teacher network (optional) or vanilla students
  
 ```
-python train_teacher.py \
- --dataset 'PANDA' 
+./scripts/run_vanilla.sh
 ```
 
 
 
-## Train the student network
+## Train the moma student network
+# If the student and teacher dataset vary in number of categories, you may need to use "--std_strict,  --tec_strict".
 
 ```
-python train_student.py \
- --dataset 'prostate_hv' \
- --method MoMA \
- --tec_pre 'PANDA' \
- --std_pre 'PANDA' \
- --loss_st NCE \
-
+./scripts/run_moma.sh
 ```
 
-## Inference on independent dataset (optional)
+
+## Train the student network using other KD methods
 
 ```
-python inference.py \
- --dataset 'prostate_kbsmc' \
- --ckpt ./save/ckpt.pth\
+./scripts/run_comparison.sh
 ```
-
