@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://compu@163.152.183.213:22/compuworks/anaconda3/envs/trinh_torch11/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/data1/trinh/code/KD/MoMA" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
