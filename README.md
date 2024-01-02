@@ -31,7 +31,7 @@ Overview of distillation flow across different tasks and datasets. 1) Supervised
 
 
 ## Train the moma student network
-# If the student and teacher dataset vary in number of categories, you may need to use "--std_strict,  --tec_strict".
+### If the student and teacher dataset vary in number of categories, you may need to use "--std_strict,  --tec_strict".
 
 ```
 ./scripts/run_moma.sh
