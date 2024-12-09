@@ -17,7 +17,7 @@ Overview of distillation flow across different tasks and datasets. 1) Supervised
 
 
 <p align="center">
-  <img src="figures/KD_dataset_v2.png" width="600">
+  <img src="figures/KD_dataset.png" width="600">
 </p>
 
 Overview of distillation flow across different tasks and datasets. 1) Supervised task is always conducted, 2) Feature distillation is applied if a well-trained teacher model is available, and 3) Vanilla ${L}_{KD}$ is employed if teacher and student models conduct the same task.
