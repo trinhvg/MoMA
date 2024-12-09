@@ -1,9 +1,11 @@
 
-## MoMA: 
-
-Implementation of paper [[arXiv]](https://arxiv.org/abs/2308.16561):
+## MoMA:
 Momentum Contrastive Learning with Multi-head Attention-based Knowledge Distillation for Histopathology Image Analysis
 Trinh Thi Le Vuong and Jin Tae Kwak. Medical Image Analysis (MEDIA) 2024.
+
+Implementation of paper [[arXiv]](https://arxiv.org/abs/2308.16561):
+
+
 
 ### Release note: The CNN version has been released. We will release the ViT and SwinViT soon.
 
